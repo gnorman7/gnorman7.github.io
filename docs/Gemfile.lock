@@ -211,6 +211,7 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.17.0)
+    noir (0.1.12)
     nokogiri (1.14.0-x86_64-linux)
       racc (~> 1.4)
     octokit (4.25.1)
@@ -261,6 +262,7 @@ DEPENDENCIES
   jekyll (~> 3.9.2)
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
+  noir
   tzinfo (>= 1, < 3)
   tzinfo-data
   wdm (~> 0.1.1)
