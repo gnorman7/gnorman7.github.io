@@ -7,11 +7,11 @@ tags: ["Updates"]
 ---
 
 ## Time Breakdown
-![Time breakdown](/assets/images/total_times.svg)
+![Time breakdown](/assets/images/2023-01-14/total_times.svg)
 
 ### Fasting
-![IF Summary](/assets/images/if.svg)
+![IF Summary](/assets/images/2023-01-14/if.svg)
 
 
 ## Workout Breakdown
-![Weekly Miles](/assets/images/weekly_miles.svg)
+![Weekly Miles](/assets/images/2023-01-14/weekly_miles.svg)
