@@ -12,8 +12,10 @@ import subprocess
 today = np.datetime64('today')
 date_str = str(today)
 
-analysis_path = r'/mnt/c/Users/grant/Documents/personal_projs/productivity/'
-website_path = r'./'
+analysis_path = r'/Users/grant/Documents/personal_projs/productivity/'
+# analysis_path = r'/mnt/c/Users/grant/Documents/personal_projs/productivity/'
+website_path = r'/Users/grant/Documents/personal_projs/gnorman7.github.io/'
+# website_path = r'./'
 
 analysis_fig_folder = r'figs_for_export'
 analysis_fig_folder = os.path.join(analysis_path,analysis_fig_folder)
@@ -41,6 +43,7 @@ md_filename = f'{date_str}-weekly_summary.md'
 md_filename = os.path.join(website_weekly_updates_folder,md_filename)
 
 update_template_filename = 'update_template.md'
+update_template_filename = os.path.join(website_path,update_template_filename)
 with open(update_template_filename,'r') as file:
     template_str = file.read()
 
@@ -53,9 +56,10 @@ file.close()
 
 # %% Update website via git commit, git push\
 
+subprocess.run(["git","checkout","gh-pages"])
+
 # Only update what is needed
 git_add_files = [website_fig_folder,md_filename]
-
 for file in git_add_files:
     subprocess.run(["git","add",file])
 
