@@ -19,4 +19,6 @@ tags: ["Updates"]
 
 
 ## Workout Breakdown
+![Workout History](/assets/images/DATE/workout_history.svg)
+
 ![Weekly Miles](/assets/images/DATE/weekly_miles.svg)
