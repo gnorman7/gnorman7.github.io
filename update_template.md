@@ -14,11 +14,10 @@ tags: ["Updates"]
 ### Research Hours
 ![Research hours](/assets/images/DATE/research_hours.svg)
 
-### Fasting
-![IF Summary](/assets/images/DATE/if.svg)
-
 
 ## Workout Breakdown
+### Time Distribution
 ![Workout History](/assets/images/DATE/workout_history.svg)
 
+### Miles per Week
 ![Weekly Miles](/assets/images/DATE/weekly_miles.svg)
