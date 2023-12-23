@@ -13,9 +13,9 @@ tags: ["Updates"]
 
 ### Research Hours
 ![Research hours](/assets/images/2023-12-23/research_hours.svg)
-
+<!--
 ### Fasting
-![IF Summary](/assets/images/2023-12-23/if.svg)
+![IF Summary](/assets/images/2023-12-23/if.svg) -->
 
 
 ## Workout Breakdown
